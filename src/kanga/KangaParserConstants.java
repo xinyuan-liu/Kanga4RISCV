@@ -100,39 +100,39 @@ public interface KangaParserConstants {
   /** RegularExpression Id. */
   int ZERO = 50;
   /** RegularExpression Id. */
-  int at = 51;
+  int ra = 51;
   /** RegularExpression Id. */
-  int v0 = 52;
+  int sp = 52;
   /** RegularExpression Id. */
-  int v1 = 53;
+  int gp = 53;
   /** RegularExpression Id. */
-  int a0 = 54;
+  int tp = 54;
   /** RegularExpression Id. */
-  int a1 = 55;
+  int t0 = 55;
   /** RegularExpression Id. */
-  int a2 = 56;
+  int t1 = 56;
   /** RegularExpression Id. */
-  int a3 = 57;
+  int t2 = 57;
   /** RegularExpression Id. */
-  int t0 = 58;
+  int s0 = 58;
   /** RegularExpression Id. */
-  int t1 = 59;
+  int s1 = 59;
   /** RegularExpression Id. */
-  int t2 = 60;
+  int a0 = 60;
   /** RegularExpression Id. */
-  int t3 = 61;
+  int a1 = 61;
   /** RegularExpression Id. */
-  int t4 = 62;
+  int a2 = 62;
   /** RegularExpression Id. */
-  int t5 = 63;
+  int a3 = 63;
   /** RegularExpression Id. */
-  int t6 = 64;
+  int a4 = 64;
   /** RegularExpression Id. */
-  int t7 = 65;
+  int a5 = 65;
   /** RegularExpression Id. */
-  int s0 = 66;
+  int a6 = 66;
   /** RegularExpression Id. */
-  int s1 = 67;
+  int a7 = 67;
   /** RegularExpression Id. */
   int s2 = 68;
   /** RegularExpression Id. */
@@ -146,21 +146,21 @@ public interface KangaParserConstants {
   /** RegularExpression Id. */
   int s7 = 73;
   /** RegularExpression Id. */
-  int t8 = 74;
+  int s8 = 74;
   /** RegularExpression Id. */
-  int t9 = 75;
+  int s9 = 75;
   /** RegularExpression Id. */
-  int k0 = 76;
+  int s10 = 76;
   /** RegularExpression Id. */
-  int k1 = 77;
+  int s11 = 77;
   /** RegularExpression Id. */
-  int gp = 78;
+  int t3 = 78;
   /** RegularExpression Id. */
-  int sp = 79;
+  int t4 = 79;
   /** RegularExpression Id. */
-  int fp = 80;
+  int t5 = 80;
   /** RegularExpression Id. */
-  int ra = 81;
+  int t6 = 81;
   /** RegularExpression Id. */
   int INTEGER_LITERAL = 82;
   /** RegularExpression Id. */
@@ -226,37 +226,37 @@ public interface KangaParserConstants {
     "\"TEMP\"",
     "\"ARG\"",
     "\"zero\"",
-    "\"at\"",
-    "\"v0\"",
-    "\"v1\"",
+    "\"ra\"",
+    "\"sp\"",
+    "\"gp\"",
+    "\"tp\"",
+    "\"t0\"",
+    "\"t1\"",
+    "\"t2\"",
+    "\"s0\"",
+    "\"s1\"",
     "\"a0\"",
     "\"a1\"",
     "\"a2\"",
     "\"a3\"",
-    "\"t0\"",
-    "\"t1\"",
-    "\"t2\"",
-    "\"t3\"",
-    "\"t4\"",
-    "\"t5\"",
-    "\"t6\"",
-    "\"t7\"",
-    "\"s0\"",
-    "\"s1\"",
+    "\"a4\"",
+    "\"a5\"",
+    "\"a6\"",
+    "\"a7\"",
     "\"s2\"",
     "\"s3\"",
     "\"s4\"",
     "\"s5\"",
     "\"s6\"",
     "\"s7\"",
-    "\"t8\"",
-    "\"t9\"",
-    "\"k0\"",
-    "\"k1\"",
-    "\"gp\"",
-    "\"sp\"",
-    "\"fp\"",
-    "\"ra\"",
+    "\"s8\"",
+    "\"s9\"",
+    "\"s10\"",
+    "\"s11\"",
+    "\"t3\"",
+    "\"t4\"",
+    "\"t5\"",
+    "\"t6\"",
     "<INTEGER_LITERAL>",
     "<IDENTIFIER>",
     "<LETTER>",

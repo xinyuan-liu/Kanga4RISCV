@@ -399,30 +399,33 @@ public class KangaParser implements KangaParserConstants {
       n2 = BinOp();
         n0 = new NodeChoice(n2, 1);
       break;
-    case v0:
-    case v1:
+    case t0:
+    case t1:
+    case t2:
+    case s0:
+    case s1:
     case a0:
     case a1:
     case a2:
     case a3:
-    case t0:
-    case t1:
-    case t2:
-    case t3:
-    case t4:
-    case t5:
-    case t6:
-    case t7:
-    case s0:
-    case s1:
+    case a4:
+    case a5:
+    case a6:
+    case a7:
     case s2:
     case s3:
     case s4:
     case s5:
     case s6:
     case s7:
-    case t8:
-    case t9:
+    case s8:
+    case s9:
+    case s10:
+    case s11:
+    case t3:
+    case t4:
+    case t5:
+    case t6:
     case INTEGER_LITERAL:
     case IDENTIFIER:
       n3 = SimpleExp();
@@ -516,30 +519,33 @@ public class KangaParser implements KangaParserConstants {
    IntegerLiteral n2;
    Label n3;
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
-    case v0:
-    case v1:
+    case t0:
+    case t1:
+    case t2:
+    case s0:
+    case s1:
     case a0:
     case a1:
     case a2:
     case a3:
-    case t0:
-    case t1:
-    case t2:
-    case t3:
-    case t4:
-    case t5:
-    case t6:
-    case t7:
-    case s0:
-    case s1:
+    case a4:
+    case a5:
+    case a6:
+    case a7:
     case s2:
     case s3:
     case s4:
     case s5:
     case s6:
     case s7:
-    case t8:
-    case t9:
+    case s8:
+    case s9:
+    case s10:
+    case s11:
+    case t3:
+    case t4:
+    case t5:
+    case t6:
       n1 = Reg();
         n0 = new NodeChoice(n1, 0);
       break;
@@ -610,6 +616,12 @@ public class KangaParser implements KangaParserConstants {
    Token n46;
    NodeToken n47;
    Token n48;
+   NodeToken n49;
+   Token n50;
+   NodeToken n51;
+   Token n52;
+   NodeToken n53;
+   Token n54;
     switch ((jj_ntk==-1)?jj_ntk():jj_ntk) {
     case a0:
       n2 = jj_consume_token(a0);
@@ -631,105 +643,120 @@ public class KangaParser implements KangaParserConstants {
                 n7 = JTBToolkit.makeNodeToken(n8);
         n0 = new NodeChoice(n7, 3);
       break;
-    case t0:
-      n10 = jj_consume_token(t0);
+    case a4:
+      n10 = jj_consume_token(a4);
                  n9 = JTBToolkit.makeNodeToken(n10);
         n0 = new NodeChoice(n9, 4);
       break;
-    case t1:
-      n12 = jj_consume_token(t1);
+    case a5:
+      n12 = jj_consume_token(a5);
                  n11 = JTBToolkit.makeNodeToken(n12);
         n0 = new NodeChoice(n11, 5);
       break;
-    case t2:
-      n14 = jj_consume_token(t2);
+    case a6:
+      n14 = jj_consume_token(a6);
                  n13 = JTBToolkit.makeNodeToken(n14);
         n0 = new NodeChoice(n13, 6);
       break;
-    case t3:
-      n16 = jj_consume_token(t3);
+    case a7:
+      n16 = jj_consume_token(a7);
                  n15 = JTBToolkit.makeNodeToken(n16);
         n0 = new NodeChoice(n15, 7);
       break;
-    case t4:
-      n18 = jj_consume_token(t4);
+    case t0:
+      n18 = jj_consume_token(t0);
                  n17 = JTBToolkit.makeNodeToken(n18);
         n0 = new NodeChoice(n17, 8);
       break;
-    case t5:
-      n20 = jj_consume_token(t5);
+    case t1:
+      n20 = jj_consume_token(t1);
                  n19 = JTBToolkit.makeNodeToken(n20);
         n0 = new NodeChoice(n19, 9);
       break;
-    case t6:
-      n22 = jj_consume_token(t6);
+    case t2:
+      n22 = jj_consume_token(t2);
                  n21 = JTBToolkit.makeNodeToken(n22);
         n0 = new NodeChoice(n21, 10);
       break;
-    case t7:
-      n24 = jj_consume_token(t7);
+    case t3:
+      n24 = jj_consume_token(t3);
                  n23 = JTBToolkit.makeNodeToken(n24);
         n0 = new NodeChoice(n23, 11);
       break;
-    case s0:
-      n26 = jj_consume_token(s0);
+    case t4:
+      n26 = jj_consume_token(t4);
                  n25 = JTBToolkit.makeNodeToken(n26);
         n0 = new NodeChoice(n25, 12);
       break;
-    case s1:
-      n28 = jj_consume_token(s1);
+    case t5:
+      n28 = jj_consume_token(t5);
                  n27 = JTBToolkit.makeNodeToken(n28);
         n0 = new NodeChoice(n27, 13);
       break;
-    case s2:
-      n30 = jj_consume_token(s2);
+    case t6:
+      n30 = jj_consume_token(t6);
                  n29 = JTBToolkit.makeNodeToken(n30);
         n0 = new NodeChoice(n29, 14);
       break;
-    case s3:
-      n32 = jj_consume_token(s3);
+    case s0:
+      n32 = jj_consume_token(s0);
                  n31 = JTBToolkit.makeNodeToken(n32);
         n0 = new NodeChoice(n31, 15);
       break;
-    case s4:
-      n34 = jj_consume_token(s4);
+    case s1:
+      n34 = jj_consume_token(s1);
                  n33 = JTBToolkit.makeNodeToken(n34);
         n0 = new NodeChoice(n33, 16);
       break;
-    case s5:
-      n36 = jj_consume_token(s5);
+    case s2:
+      n36 = jj_consume_token(s2);
                  n35 = JTBToolkit.makeNodeToken(n36);
         n0 = new NodeChoice(n35, 17);
       break;
-    case s6:
-      n38 = jj_consume_token(s6);
+    case s3:
+      n38 = jj_consume_token(s3);
                  n37 = JTBToolkit.makeNodeToken(n38);
         n0 = new NodeChoice(n37, 18);
       break;
-    case s7:
-      n40 = jj_consume_token(s7);
+    case s4:
+      n40 = jj_consume_token(s4);
                  n39 = JTBToolkit.makeNodeToken(n40);
         n0 = new NodeChoice(n39, 19);
       break;
-    case t8:
-      n42 = jj_consume_token(t8);
+    case s5:
+      n42 = jj_consume_token(s5);
                  n41 = JTBToolkit.makeNodeToken(n42);
         n0 = new NodeChoice(n41, 20);
       break;
-    case t9:
-      n44 = jj_consume_token(t9);
+    case s6:
+      n44 = jj_consume_token(s6);
                  n43 = JTBToolkit.makeNodeToken(n44);
         n0 = new NodeChoice(n43, 21);
       break;
-    case v0:
-      n46 = jj_consume_token(v0);
+    case s7:
+      n46 = jj_consume_token(s7);
                  n45 = JTBToolkit.makeNodeToken(n46);
         n0 = new NodeChoice(n45, 22);
       break;
-    case v1:
-      n48 = jj_consume_token(v1);
+    case s8:
+      n48 = jj_consume_token(s8);
                  n47 = JTBToolkit.makeNodeToken(n48);
         n0 = new NodeChoice(n47, 23);
+      break;
+    case s9:
+      n50 = jj_consume_token(s9);
+                 n49 = JTBToolkit.makeNodeToken(n50);
+        n0 = new NodeChoice(n49, 24);
+      break;
+    case s10:
+      n52 = jj_consume_token(s10);
+                  n51 = JTBToolkit.makeNodeToken(n52);
+        n0 = new NodeChoice(n51, 25);
+      break;
+    case s11:
+      n54 = jj_consume_token(s11);
+                  n53 = JTBToolkit.makeNodeToken(n54);
+        n0 = new NodeChoice(n53, 26);
       break;
     default:
       jj_la1[7] = jj_gen;
@@ -781,10 +808,10 @@ public class KangaParser implements KangaParserConstants {
       jj_la1_0 = new int[] {0x0,0x0,0x0,0x0,0x48c10000,0x8c10000,0x0,0x0,};
    }
    private static void jj_la1_init_1() {
-      jj_la1_1 = new int[] {0x0,0x7f3e,0x0,0x7f3e,0xfff00000,0x0,0xfff00000,0xfff00000,};
+      jj_la1_1 = new int[] {0x0,0x7f3e,0x0,0x7f3e,0xff800000,0x0,0xff800000,0xff800000,};
    }
    private static void jj_la1_init_2() {
-      jj_la1_2 = new int[] {0x80000,0x80000,0x80000,0x0,0xc0fff,0x0,0xc0fff,0xfff,};
+      jj_la1_2 = new int[] {0x80000,0x80000,0x80000,0x0,0xfffff,0x0,0xfffff,0x3ffff,};
    }
 
   /** Constructor with InputStream. */

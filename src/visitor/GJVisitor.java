@@ -206,6 +206,10 @@ public interface GJVisitor<R,A> {
     *       | "a1"
     *       | "a2"
     *       | "a3"
+    *       | "a4"
+    *       | "a5"
+    *       | "a6"
+    *       | "a7"
     *       | "t0"
     *       | "t1"
     *       | "t2"
@@ -213,7 +217,6 @@ public interface GJVisitor<R,A> {
     *       | "t4"
     *       | "t5"
     *       | "t6"
-    *       | "t7"
     *       | "s0"
     *       | "s1"
     *       | "s2"
@@ -222,10 +225,10 @@ public interface GJVisitor<R,A> {
     *       | "s5"
     *       | "s6"
     *       | "s7"
-    *       | "t8"
-    *       | "t9"
-    *       | "v0"
-    *       | "v1"
+    *       | "s8"
+    *       | "s9"
+    *       | "s10"
+    *       | "s11"
     */
    public R visit(Reg n, A argu);
 
