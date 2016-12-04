@@ -29,39 +29,19 @@ package kanga;
 /* 28 */         System.exit(1);
 /*    */       }
 /*    */     }
+
 /* 31 */     KangaParser localKangaParser = new KangaParser(System.in);
-/*    */     
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
+
 /*    */ 
 /*    */     try
 /*    */     {
 /* 50 */       Goal localGoal = KangaParser.Goal();
-/*    */       
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
 /* 56 */       Hashtable localHashtable = new Hashtable();
 /* 57 */       MyTreeDumper localMyTreeDumper = new MyTreeDumper(localHashtable);
 /* 58 */       localGoal.accept(localMyTreeDumper);
 /*    */       
 /* 60 */       KangaRuntime localKangaRuntime = new KangaRuntime(localHashtable);
 /* 61 */       localGoal.accept(new visitor.SetLabel(localKangaRuntime));
-/*    */       
-/*    */ 
 /* 64 */       localKangaRuntime.run();
 /*    */     }
 /*    */     catch (ParseException localParseException) {
@@ -71,8 +51,3 @@ package kanga;
 /*    */   }
 /*    */ }
 
-
-/* Location:              /Users/liuxinyuan/Desktop/kgi.jar!/kgi.class
- * Java compiler version: 5 (49.0)
- * JD-Core Version:       0.7.1
- */
